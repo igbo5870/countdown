@@ -5,7 +5,51 @@
  ** Dernière mise à jour : 03/01/2018                   **
  ** Objectif : Permettre de lancer un compte à rebours  **
  *********************************************************/
+body{
+	text-align: center;
+}
 
- body{
- 	font-size: 20px;
- }
+h1{
+	font-size: 3em;
+}
+
+.objectif{
+	padding-bottom: 10px;
+}
+.compteur{
+	display: flex;
+	justify-content: space-around;
+	line-height: 2.5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.minuteur{
+	font-size: 2.5em;
+	margin: auto;
+	padding: 5px;
+}
+
+.jours, .heures, .minutes, .secondes{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border: 10px solid black;
+	border-radius: 50%;
+}
+
+.heures p{
+	width: 150px;
+	margin-left: -25px;
+}
+
+.minutes p{
+	width: 170px;
+	margin-left: -35px;
+}
+
+.secondes p{
+	width: 200px;
+	margin-left: -50px;
+}
